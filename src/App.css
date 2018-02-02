@@ -11,7 +11,7 @@ h1{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  border: 5px solid #ccc;
+  border: 5px solid #ddd;
   margin: 32px auto 64px auto;
 }
 
@@ -19,7 +19,7 @@ h1{
   height: 150px;
   width: 150px;
   box-sizing: border-box;
-  border: 5px solid #ccc;
+  border: 5px solid #ddd;
   font-size: 5em;
   display: flex;
   justify-content: center;

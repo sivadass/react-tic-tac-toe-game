@@ -49,7 +49,7 @@ class App extends Component {
           return <div key={index} onClick={() => this.handleClick(index)} className="square">{cell}</div>;
         })}
         </div>
-        {this.state.winner ? <h2 className="winner">{`The winner is ${this.state.winner}`}</h2> : null}
+        {this.state.winner ? <h2 className="winner">{`The final winner is ${this.state.winner}`}</h2> : null}
       </div>
     )
   }
