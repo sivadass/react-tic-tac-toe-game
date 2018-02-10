@@ -7,7 +7,7 @@ class App extends Component {
     super(props)
     this.state = {
       PLAYER_ONE_SYMBOL: "X",
-      PLAYER_TWO_SYMBOL: "O",
+      PLAYER_TWO_SYMBOL: "0",
       currentTurn: "X",
       board: [
         "", "", "", "", "", "", "", "", ""
